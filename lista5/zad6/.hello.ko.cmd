@@ -1,0 +1,1 @@
+cmd_/home/marcin/akiso/lista5/zad6/hello.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/marcin/akiso/lista5/zad6/hello.ko /home/marcin/akiso/lista5/zad6/hello.o /home/marcin/akiso/lista5/zad6/hello.mod.o ;  true
